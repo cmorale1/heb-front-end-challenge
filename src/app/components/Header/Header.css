@@ -1,0 +1,12 @@
+.header-container {
+    background-color: #EF241F;
+    text-align: center;
+    width: 100%;
+    padding: 16px 0 16px 0;
+}
+
+img {
+    height: 56px;
+    width: auto;
+    margin: auto;
+}

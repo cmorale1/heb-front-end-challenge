@@ -1,0 +1,11 @@
+.list-container {
+    padding: 24px;
+}
+
+.table-section {
+    margin-top: 16px;
+}
+
+svg:hover {
+    cursor: pointer;
+}
