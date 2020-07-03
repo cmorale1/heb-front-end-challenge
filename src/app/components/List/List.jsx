@@ -51,6 +51,7 @@ class List extends React.Component {
         })
     }
 
+    // Update parameters based on the type the user selects
     async onTypeChange(event) {
         let { parameters } = this.state;
         this.setState({
@@ -67,6 +68,7 @@ class List extends React.Component {
     
     render() {
         let { parameters, products, selectedType } = this.state;
+        // Options object to organize what to display on UI versus value to send to API
         let typeOptions = [
             {
                 value: 'descripton', 
